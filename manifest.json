@@ -1,6 +1,6 @@
 {
 	"name": "PrivacyChecker",
-	"description": "Keep your Privacy! PrivacyChecker automatically summarizes and lists out the suspicious points in a website's privacy and cookie policies.",
+	"description": "Keep your Privacy! PrivacyChecker automatically summarizes and lists out suspicious points in a website's privacy and cookie policy.",
 	"version": "1.0",
 	"manifest_version": 3,
 	"icons": {
