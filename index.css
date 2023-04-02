@@ -1,6 +1,49 @@
 body {
+	background-color: #0061ff;
 	min-width: 400px;
-	padding: 20px;
+	padding: 0px 0px 40px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+#tagline {
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	margin-top: -20px;
+}
+
+#button_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+#summarize_privacy_button {
+	background-color: #eeeeee;
+	border-radius: 8px;
+	border: none;
+	color: #0061ff;
+	padding: 12px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+#summarize_privacy_button:hover {
+	background-color: #cccccc;
+	transition-duration: 0.2s;
 }
 
 #key_entered {
