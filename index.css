@@ -1,6 +1,6 @@
 body {
 	background-color: #0061ff;
-	min-width: 400px;
+	width: 400px;
 	padding: 0px 0px 40px 0px;
 	display: flex;
 	flex-direction: column;
@@ -19,7 +19,7 @@ body {
 	text-align: center;
 	font-size: 16px;
 	color: white;
-	margin-top: -20px;
+	margin-top: -24px;
 }
 
 #button_container {
@@ -27,25 +27,92 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 40px;
 }
 
-#summarize_privacy_button {
+.btn {
 	background-color: #eeeeee;
 	border-radius: 8px;
 	border: none;
 	color: #0061ff;
-	padding: 12px 32px;
+	padding: 10px 32px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
 	cursor: pointer;
+	margin-top: 30px;
+	font-weight: bold;
 }
-#summarize_privacy_button:hover {
+.btn:hover {
 	background-color: #cccccc;
 	transition-duration: 0.2s;
 }
 
+#add_key {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+#get_key {
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: -10px;
+}
+
+.link {
+	color: #eeeeee;
+}
+
+#key_input {
+	width: 100%;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#key_input:focus {
+	outline: none;
+}
+
 #key_entered {
 	display: none;
+}
+#domain {
+	display: none;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+#privacy_summary {
+	display: none;
+	white-space: pre-wrap;
+	text-align: left;
+	max-height: 200px;
+	max-width: 320px;
+	overflow-y: scroll;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	margin-top: -10px;
+}
+
+#change_key_button {
+	position: absolute;
+	bottom: 10;
+	left: 10;
+	background-color: transparent;
+	color: #eeeeee;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+}
+#change_key_button:hover {
+	color: #cccccc;
+	transition-duration: 0.2s;
 }

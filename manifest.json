@@ -5,16 +5,11 @@
 	"manifest_version": 3,
 	"icons": {
 		"48": "assets/48.png",
-		"72": "assets/72.png",
-		"96": "assets/96.png",
-		"144": "assets/144.png"
+		"96": "assets/96.png"
 	},
 	"action": {
 		"default_popup": "index.html",
 		"default_title": "Your Privacy Matters."
-	},
-	"background": {
-		"service_worker": "scripts/contextMenuServiceWorker.js"
 	},
 	"permissions": ["contextMenus", "tabs", "storage"]
 }
