@@ -46,6 +46,10 @@ body {
 	background-color: #cccccc;
 	transition-duration: 0.2s;
 }
+.btn:disabled {
+	background-color: #bbbbbb;
+	cursor: default;
+}
 
 #add_key {
 	text-align: center;
