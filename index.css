@@ -1,0 +1,8 @@
+body {
+	min-width: 400px;
+	padding: 20px;
+}
+
+#key_entered {
+	display: none;
+}

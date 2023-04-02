@@ -1,0 +1,20 @@
+{
+	"name": "PrivacyChecker",
+	"description": "Keep your Privacy! PrivacyChecker automatically summarizes and lists out the suspicious points in a website's privacy and cookie policies.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"icons": {
+		"48": "assets/48.png",
+		"72": "assets/72.png",
+		"96": "assets/96.png",
+		"144": "assets/144.png"
+	},
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "Your Privacy Matters."
+	},
+	"background": {
+		"service_worker": "scripts/contextMenuServiceWorker.js"
+	},
+	"permissions": ["contextMenus", "tabs", "storage"]
+}
